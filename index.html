@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victor Oyenuga — Product Designer & Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════ NAV ══════════ -->
+<nav>
+  <div class="nav-logo">V<span>O</span></div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#letstalk">Service</a></li>
+    <li><a href="#contact" class="nav-cta-link">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <p class="hero-greeting">Hi, I am</p>
+      <h1 class="hero-name" style="color:#c1e8ff; -webkit-text-stroke:2px #052659; color:transparent;
+        background:linear-gradient(135deg,#052659 0%,#1a5090 100%);
+        -webkit-background-clip:text;background-clip:text;color:transparent;">
+        Victor Oyenuga
+      </h1>
+      <!-- name in requested color -->
+      <h1 class="hero-name" style="position:absolute;top:auto;margin-top:-1em;opacity:0;pointer-events:none;"></h1>
+      <div class="hero-role">Product Designer &amp; Developer</div>
+      <p class="hero-exp">5+ years experience in the digital world</p>
+      <div class="hero-btns">
+        <button class="btn-hire" onclick="document.getElementById('letstalk').scrollIntoView({behavior:'smooth'})">Hire Me</button>
+        <button class="btn-contact" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact Me</button>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-wrap">
+        <div class="hero-img-bg"></div>
+        <div class="hero-img-ring"></div>
+        <img
+          class="hero-img"
+          src="images/projectimg.png">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CREATIVITY / HOW WE WORK ══════════ -->
+<section class="creativity" id="creativity">
+  <div class="section-wrap" style="max-width:1280px;margin:0 auto;">
+    <div class="section-eyebrow">Creativity</div>
+    <h2 class="creativity-head">How We Work</h2>
+    <p class="creativity-sub">
+      From first concept to final delivery, every project goes through a deliberate process designed to turn your ideas into impactful digital experiences — on time, on brief, and beyond expectations.
+    </p>
+
+    <div class="how-box reveal">
+      <!-- Space 1 -->
+      <div class="how-col">
+        <div class="how-icon how-icon-1">📋</div>
+        <div class="how-title">My Brief About the Project</div>
+        <p class="how-body">
+          Every great project starts with a clear brief. I begin by deeply understanding your goals, your audience, and the problem we're solving — so every design and code decision is purposeful and aligned with your vision from day one.
+        </p>
+        <button class="btn-read btn-read-1">Read More</button>
+      </div>
+
+      <!-- Space 2 -->
+      <div class="how-col">
+        <div class="how-icon how-icon-2">🔬</div>
+        <div class="how-title">Doing Research on the Project</div>
+        <p class="how-body">
+          Before a single wireframe is drawn, I immerse myself in your market, competitors, and users. Deep research ensures the product I design is not just beautiful — it's effective, relevant, and built on real insights that drive results.
+        </p>
+        <button class="btn-read btn-read-2">Read More</button>
+      </div>
+
+      <!-- Space 3 -->
+      <div class="how-col">
+        <div class="how-icon how-icon-3">💡</div>
+        <div class="how-title">Doing Research on the Project</div>
+        <p class="how-body">
+          Through user interviews, data analysis, and usability testing, I validate every idea before it becomes a pixel. This research-first approach means fewer revisions, stronger products, and designs that truly resonate with the people using them.
+        </p>
+        <button class="btn-read btn-read-3">Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MY SKILLS ══════════ -->
+<section class="skills" id="skills">
+  <div class="skills-inner">
+    <!-- LEFT -->
+    <div class="skills-left reveal">
+      <h2 class="skills-label">My Skills</h2>
+      <p class="skills-para">
+        With over 5 years of experience crafting digital products, I bring together design intuition and technical precision. I create user experiences that are not just visually compelling but strategically effective — bridging the gap between creativity and engineering to deliver results that matter. Every tool I use, I've mastered with purpose, from pixels to production-ready code.
+      </p>
+      <div class="skills-numbers">
+        <div class="snum-block">
+          <div class="snum-val snum-v1">10</div>
+          <div class="snum-caption snum-c1">Projects Done</div>
+        </div>
+        <div class="snum-block">
+          <div class="snum-val snum-v2">202</div>
+          <div class="snum-caption snum-c2">Happy Clients</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="skills-right reveal reveal-d1">
+      <div class="skill-card">
+        <div class="skill-card-icon sicon-1">🧠</div>
+        <div class="skill-card-text">
+          <div class="skill-card-title">User Experience</div>
+          <div class="skill-card-body">Designing intuitive user journeys that reduce friction and increase engagement. Every interaction is mapped, tested, and refined until it feels effortless for the user.</div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon sicon-2">🎨</div>
+        <div class="skill-card-text">
+          <div class="skill-card-title">User Interface</div>
+          <div class="skill-card-body">Crafting pixel-perfect, accessible interfaces that balance aesthetics with function. From design systems to micro-interactions, every visual detail has a purpose.</div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon sicon-3">⚙️</div>
+        <div class="skill-card-text">
+          <div class="skill-card-title">Project Design</div>
+          <div class="skill-card-body">Managing the full product lifecycle — from discovery workshops and wireframes through to stakeholder presentations and handoff documentation — delivering clarity at every stage.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MY LATEST PROJECT ══════════ -->
+<section class="projects" id="projects">
+  <div class="projects-inner">
+    <div class="projects-top">
+      <!-- Left: header + text + comment button -->
+      <div class="projects-hd-block reveal">
+        <div class="section-eyebrow" style="color:var(--navy);">Portfolio</div>
+        <h2 class="section-h2">My Latest Project</h2>
+        <p class="projects-para">
+          A curated selection of my most recent work — spanning product design, web development, and digital experiences. Each project represents a unique challenge solved with purpose-driven design and clean, scalable code.
+        </p>
+        <button class="btn-project-comment">Leave a Comment</button>
+      </div>
+
+      <!-- Right: 2 featured clickable images with > nav -->
+      <div class="projects-featured reveal reveal-d1">
+        <div class="feat-img-box">
+          <img src="images/ATYS5332.PNG">
+          <div class="feat-nav">
+            <button class="feat-nav-btn">‹</button>
+            <button class="feat-nav-btn">›</button>
+          </div>
+        </div>
+        <div class="feat-img-box">
+          <img src="images/YGEN1702.png">
+          <div class="feat-nav">
+            <button class="feat-nav-btn">‹</button>
+            <button class="feat-nav-btn">›</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 project images below -->
+    <div class="projects-grid">
+      <div class="proj-img-box reveal">
+        <img src="images/XJNA0452.PNG">
+        <div class="proj-nav-bar"></div>
+        <button class="proj-img-nav">›</button>
+      </div>
+      <div class="proj-img-box reveal reveal-d1">
+        <img src="images/EXBX5913.PNG">
+        <div class="proj-nav-bar"></div>
+        <button class="proj-img-nav">›</button>
+      </div>
+      <div class="proj-img-box reveal reveal-d2">
+        <img src="images/RWAK2953.PNG">
+        <div class="proj-nav-bar"></div>
+        <button class="proj-img-nav">›</button>
+      </div>
+    </div>
+
+    <div class="projects-more reveal">
+      <button class="btn-more">Check for More</button>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ LET'S TALK ══════════ -->
+<section class="letstalk" id="letstalk">
+  <div class="letstalk-inner">
+    <div class="talk-left reveal">
+      <div class="talk-eyebrow">Get in Touch</div>
+      <h2 class="talk-h2">Let's Talk About Your Project</h2>
+      <p class="talk-p">
+        Whether you have a fully-formed idea or just a spark of inspiration, I'm here to help turn it into something extraordinary. Tell me about your vision, your goals, and your timeline — and let's build something great together.
+      </p>
+      <p class="talk-p" style="margin-top:14px;">
+        I work with startups, established businesses, and individuals who are serious about their digital presence. Let's start a conversation.
+      </p>
+      <p class="talk-p" style="margin-top:14px;">
+        Response time is usually within 24 hours.
+      </p>
+    </div>
+    <div class="reveal reveal-d1">
+      <div class="contact-form">
+        <input type="text" class="form-field" placeholder="Your Name">
+        <input type="email" class="form-field" placeholder="Your Email">
+        <textarea class="form-field" placeholder="Your Comment" rows="5"></textarea>
+        <button type="submit" class="btn-submit">Send Message</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CONTACT ══════════ -->
+<section class="contact" id="contact">
+  <div class="contact-word">
+    <span class="cl-c">C</span><span class="cl-o">O</span><span class="cl-n">N</span><span class="cl-t">T</span><span class="cl-a">A</span><span class="cl-c2">C</span><span class="cl-t2">T</span>
+  </div>
+  <a class="contact-email" href="mailto:temiloluwaunbothered@gmail.com">temiloluwaunbothered@gmail.com</a>
+  <a class="contact-phone" href="tel:09122322775"><i class="fa fa-whatsapp"></i> 09122322775</a>
+
+  <div class="social-row">
+<div class="social-item">
+    <div class="social-icon">
+       <i class="fa fa-twitter"></i>
+    </div>
+    <div class="social-lbl">Twitter</div>
+</div>
+
+<div class="social-item">
+     <div class="social-icon">
+       <i class="fa fa-linkedin"></i>
+      </div>
+      <div class="social-lbl">LinkedIn</div>
+</div>
+<div class="social-item">
+    <div class="social-icon">
+       <i class="fa fa-instagram"></i>
+    </div>
+    <div class="social-lbl">Instagram</div>   
+</div>
+</div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="footer-divider"></div>
+  <ul class="footer-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#creativity">About Us</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
